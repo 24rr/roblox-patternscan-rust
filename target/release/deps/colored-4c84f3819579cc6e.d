@@ -1,0 +1,12 @@
+D:\Important Files\Codes\CS-GUI\rust-pattern-scanner\target\release\deps\libcolored-4c84f3819579cc6e.rmeta: D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src/lib.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\color.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\control.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\error.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\style.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\customcolors.rs
+
+D:\Important Files\Codes\CS-GUI\rust-pattern-scanner\target\release\deps\libcolored-4c84f3819579cc6e.rlib: D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src/lib.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\color.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\control.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\error.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\style.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\customcolors.rs
+
+D:\Important Files\Codes\CS-GUI\rust-pattern-scanner\target\release\deps\colored-4c84f3819579cc6e.d: D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src/lib.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\color.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\control.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\error.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\style.rs D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\customcolors.rs
+
+D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src/lib.rs:
+D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\color.rs:
+D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\control.rs:
+D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\error.rs:
+D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\style.rs:
+D:\Rust.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-3.0.0\src\customcolors.rs:

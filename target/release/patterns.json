@@ -1,0 +1,84 @@
+{
+    "patterns": [
+        {
+            "name": "RBXPrint",
+            "pattern": "48 8B C4 48 89 50 10 4C 89 40 18 4C 89 48 20 53 57 48 83 EC 78 8B D9 33 FF"
+        },
+        {
+            "name": "RBXdecryptState",
+            "pattern": "8B 11 03 D1 03 49 04 89 4C 24 14 89 54 24 10 48 8B 44 24 ? C3"
+        },
+        {
+            "name": "RBXgetstate",
+            "pattern": "48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 48 8B DA 4C 8B F1 49 8B 08 48 85 C9 75 23 48 8B CA E8 ? ? ? ? 48 C1 E8 03 83 E0 01 48 8D 04 80 48 C1 E0 06 48 83 C0 30 49 03 C6 E9 ? ? ? ?"
+        },
+        {
+            "name": "TaskScheduler",
+            "pattern": "? ? ? ? 0F 28 D0 48 8D 15 ? ? ? ? 48 8D 8D ? ? ? ? E8 ? ? ? ? 49 8B 0F 48 8D 81 ? ? ? ?"
+        },
+        {
+            "name": "LuaONilObject",
+            "pattern": "48 3B D0 73 30 48 8D 0D ? ? ? ?"
+        },
+        {
+            "name": "LuaStateGetter",
+            "pattern": "48 8D 88 ? ? ? ? 4C 8D 84 24 ? ? ? ? 48 8D 94 24 ? ? ? ? E8 ? ? ? ?"
+        },
+        {
+            "name": "LuaStateDecoder",
+            "pattern": "48 8D 88 ? ? ? ? E8 ? ? ? ? 48 8B F0"
+        },
+        {
+            "name": "Pseudo2Address",
+            "pattern": "41 B8 EE D8 FF FF"
+        },
+        {
+            "name": "TopBase",
+            "pattern": "48 8B 53 20 48 8B 4B 08"
+        },
+        {
+            "name": "ProximityPromptTrigger",
+            "pattern": "? ? ? ? ? ? ? ? ? 55 53 56 57 41 56 48 8D 6C 24 ? 48 81 EC ? ? ? ? 48 8B F1 48 8B 79 50"
+        },
+        {
+            "name": "TaskDefer",
+            "pattern": "40 55 53 56 57 41 54 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B F1 48 C7 45 ? ? ? ? ?"
+        },
+        {
+            "name": "PushInstance",
+            "pattern": "48 89 5C 24 ? 57 48 83 EC 20 48 8B FA 48 8B D9 E8 ? ? ? ? 84 C0 74 15"
+        },
+        {
+            "name": "LuaFreeArray",
+            "pattern": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC 30 48 8B DA 49 8B F0"
+        },
+        {
+            "name": "LuaPushError",
+            "pattern": "E8 ? ? ? ? BA ? ? ? ? 48 8B CB E8 ? ? ? ? CC CC"
+        },
+        {
+            "name": "LuaVMLoad",
+            "pattern": "4C 89 44 24 ? 48 89 4C 24 ? 53 56 57 41 54 41 55 41 56 41 57 48 81 EC ? ? ? ? 41 8B F1 49 8B D8 48 8B F9 48 8B 42 10"
+        },
+        {
+            "name": "DumpTable",
+            "pattern": "40 53 57 48 83 EC 28 48 89 6C 24 ? 48 8D 42 28 48 33 42 28 48 8D 3D ? ? ? ?"
+        },
+        {
+            "name": "LuaFullGc",
+            "pattern": "48 89 6B 38 48 89 6B 30 48 89 6B 40"
+        },
+        {
+            "name": "LuaCstep",
+            "pattern": "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 56 41 57 48 83 EC 30 48 8B 59 18 48 8D 41 18 48 2B D8 0F 29 74 24 ? B8 ? ? ? ? 0F B6 F2 4C 8B F1 44 8B 43 50 44 0F AF 43 ? 48 8B 6B 58 48 2B 6B 48 41 F7 E8 8B FA C1 FF 05 8B C7 C1 E8 1F 03 F8 48 8B 83 ? ? ? ? 48 85 C0 74 08 33 D2 FF 15 ? ? ? ? 80 7B 29 00"
+        },
+        {
+            "name": "execute1",
+            "pattern": "48 8B C4 48 89 48 08 55 53 56 57 41 54 41 55 41 56 41 57 48 8D A8 ? ? ? ? 48 81 EC ? ? ? ? 0F 29 70 A8 4C 8D 71 10 0F 29 78 98 4C 8D 59 18 44 0F 29 40 ? 48 8B F9 F3 44 0F 10 05 ? ? ? ? 0F 57 FF 44 0F 29 88 ? ? ? ? F2 44 0F 10 0D ? ? ? ? 44 0F 29 90 ? ? ? ? F2 44 0F 10 15 ? ? ? ? 44 0F 29 98 ? ? ? ? F2 44 0F 10 1D ? ? ? ? 44 0F 29 A0 ? ? ? ? F2 44 0F 10 25 ? ? ? ? 0F 1F 80 ? ? ? ?"
+        },
+        {
+            "name": "execute2",
+            "pattern": "48 89 4C 24 ? 55 57 41 56 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 48 8B 41 10 4C 8D 71 10 48 8B F9 F6 40 24 04 CC CC 48 8B 40 08 48 8B 10 48 8D 41 18 48 8B 49 18 48 83 C2 18 48 2B C8 48 33 12 48 8B 81 ? ? ? ? 48 8B CF FF 15 ? ? ? ? 85 C0 0F 84 ? ? ? ?"
+        }
+    ]
+} 
